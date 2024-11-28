@@ -1034,13 +1034,13 @@ requiredSubjects: ["Business Studies","Economics","Accounting","Agricultural Sci
     name: "BIOMEDICAL TECHNOLOGY", 
     university: "The Gampaha Wickramarachchi University of Indigenous ", 
     districtRequirements: {'Colombo': 1.0057, 'Gampaha': 1.0278, 'Kalutara': 1.1620, 'Matale': 1.1511, 'Kandy': 1.1061, 'Nuwara Eliya': 0.9012, 'Galle': 1.1831, 'Matara': 1.2344, 'Hambantota': 1.1551, 'Jaffna': 0.8457, 'Kilinochchi': 0.7141, 'Mannar': 0.7467, 'Mullaitivu': 0.8908, 'Vavuniya': 1.0332, 'Trincomalee': 1.1359, 'Batticaloa': 1.2084, 'Ampara': 0.9017, 'Puttalam': 0.7273, 'Kurunegala': 1.1566, 'Anuradhapura': 0.9687, 'Polonnaruwa': 1.1071, 'Badulla': 1.1073, 'Monaragala': 0.8528, 'Kegalle': 1.1261, 'Ratnapura': 1.0580},
-    requiredSubjects: ["Engineering Technology ", "Science for Technology", "Economics", "Geography", "Home Economics", "English", "Communication and Media Studies", "Information & Communication Technology", "Art", "Business Studies", "Agricultural Science", "Accounting", "Mathematics", "Bio Systems Technology "]
+    requiredSubjects: ["Engineering Technology", "Science for Technology", "Economics", "Geography", "Home Economics", "English", "Communication and Media Studies", "Information & Communication Technology", "Art", "Business Studies", "Agricultural Science", "Accounting", "Mathematics", "Bio Systems Technology "]
 },
 { 
     name: "INDIGENOUS PHARMACEUTICAL TECHNOLOGY", 
     university: "The Gampaha Wickramarachchi University of Indigenous  ", 
     districtRequirements: {'Colombo': 0.9292, 'Gampaha': 0.9821, 'Kalutara': 1.0414, 'Matale': 1.1091, 'Kandy': 1.0226, 'Nuwara Eliya': 0.8341, 'Galle': 1.0864, 'Matara': 1.1012, 'Hambantota': 1.0918, 'Jaffna': 0.8371, 'Kilinochchi': 0.6293, 'Mannar': 0.8008, 'Mullaitivu': 0.4234, 'Vavuniya': 0.8293, 'Trincomalee': 0.6262, 'Batticaloa': 0.9611, 'Ampara': 0.9874, 'Puttalam': 0.6753, 'Kurunegala': 1.0954, 'Anuradhapura': 0.9214, 'Polonnaruwa': 1.0940, 'Badulla': 1.0919, 'Monaragala': 0.8524, 'Kegalle': 1.1031, 'Ratnapura': 1.0389},
-    requiredSubjects: ["Engineering Technology ", "Science for Technology", "Economics", "Geography", "Home Economics", "English", "Communication and Media Studies", "Information & Communication Technology", "Art", "Business Studies", "Agricultural Science", "Accounting", "Mathematics", "Bio Systems Technology "]
+    requiredSubjects: ["Engineering Technology", "Science for Technology", "Economics", "Geography", "Home Economics", "English", "Communication and Media Studies", "Information & Communication Technology", "Art", "Business Studies", "Agricultural Science", "Accounting", "Mathematics", "Bio Systems Technology "]
 },
 { 
     name: "YOGA AND PARAPSYCHOLOGY", 
