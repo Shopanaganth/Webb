@@ -246,6 +246,41 @@
             text-align: center;
             font-size: 16px;
         }
+         /* Dropdown menu */
+         .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: rgb(81, 81, 81);
+            color: #4B2666;
+            min-width: 200px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #4B2666;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #FF7F00;
+            color: white;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
         /* Footer */
         footer {
@@ -308,42 +343,51 @@
 </head>
 <body>
     <!-- Header Section -->
-    <header>
-        <h1><b>EDUCATIONPATHWAY</b></h1>
-        <div class="header-links">
-            <div class="dropdown">
-            <a href="index.html">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4B2666;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1>EDUCATIONPATHWAY</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            AL Stream
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Physicalscience.html">Physical Science</a></li>
+                            <li><a class="dropdown-item" href="BIOSCIENCE.html">Bio Science</a></li>
+                            <li><a class="dropdown-item" href="commerce.html">Commerce</a></li>
+                            <li><a class="dropdown-item" href="Arts.html">Arts</a></li>
+                            <li><a class="dropdown-item" href="egineering Tech.html">Engineering Technology</a></li>
+                            <li><a class="dropdown-item" href="Bio System Tech.html">Bio Systems Technology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Higher Education Guide
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="G.Uni.html">Sri Lankan Government Universities</a></li>
+                            <li><a class="dropdown-item" href="P.Uni.html">Approved Private Universities</a></li>
+                            <li><a class="dropdown-item" href="HND.html">Higher National Diploma Courses</a></li>
+                            <li><a class="dropdown-item" href="NVQ.html">NVQ Level Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Find Suitable Degree.html"><B>Find Degree</B></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                </ul>
             </div>
-            <div class="dropdown">
-                <a href="#">AL Stream</a>
-                <div class="dropdown-content">
-                    <a href="Physicalscience.html">Physical Science</a>
-                    <a href="BIOSCIENCE.html">Bio Science</a>
-                    <a href="commerce.html">Commerce</a>
-                    <a href="Arts.html">Arts</a>
-                    <a href="egineering Tech.html">Engineering Technology</a>
-                    <a href="Bio System Tech.html">Bio Systems Technology</a>
-                    
-                </div>
-            </div>
-            
-            <div class="dropdown">
-                <a href="#">Higher Education Guide</a>
-                <div class="dropdown-content">
-                    <a href="G.Uni.html">Sri Lankan Goverment Universities</a>
-                    <a href="P.Uni.html">Approved Private Universities</a>
-                    <a href="HND.html">Higher National Diploma Course</a>
-                    <a href="NVQ.html">NVQ  Level courses</a>
-                   
-                </div>
-            </div>
-            <a href="Find Suitable Degree.html" class="main-button">Find Degree</a>
-            <div class="header-links">
-                <div class="dropdown">
-                <a href="About.html">About</a>
-                </div>
         </div>
-    </header>
+    </nav>
 <br>
     <div class="container">
 
