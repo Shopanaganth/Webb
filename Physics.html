@@ -10,8 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
-</body>
-    <title>MATHS</title>
+    <title>Physics</title>
     <style>
          body {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,6 +80,7 @@
     }
 
     .syllabus-list {
+        width: 50%;
         display: none;
         list-style-type: none;
         padding-left: 0;
@@ -305,8 +305,60 @@
                 font-size: 14px; /* Smaller footer text */
             }
         }
-         /* Dropdown menu */
-         .dropdown {
+        .ad-container {
+            position: fixed;
+  width: 20vw; /* 20% of viewport width */
+  max-width: 336px; /* Limit max size to 336px */
+  height: 20vw; /* Maintain a square shape */
+  max-height: 336px;
+  position: fixed; /* Keep it at the same place */
+  right: 2vw; /* Adjust position dynamically */
+  top: 20vh; /* Adjust position dynamically */
+  overflow: hidden;
+  z-index: 9999; /* Ensure it stays above other elements */
+  border: 1px solid #ddd; /* Optional: Add a border */
+  background: #fff; /* Optional: Add a background */
+}
+
+.ad {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: rollAds 10s infinite; /* 5s per ad, 10s full cycle */
+}
+
+.ad img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fits nicely */
+}
+
+/* Rolling animation */
+@keyframes rollAds {
+  0%, 50% { transform: translateY(0); }
+  55%, 100% { transform: translateY(-100%); }
+}
+
+/* Media Queries for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .ad-container {
+    width: 30vw; /* Adjust width for smaller screens */
+    height: 30vw;
+    right: 1vw;
+    top: 5vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ad-container {
+    width: 40vw; /* Adjust width for very small screens */
+    height: 40vw;
+    right: 1vw;
+    top: 5vh;
+  }
+}
+ /* Dropdown menu */
+ .dropdown {
             position: relative;
         }
 
@@ -340,6 +392,7 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
     </style>
 </head>
 <body>
@@ -389,161 +442,51 @@
             </div>
         </div>
     </nav>
-<br>
+   
+      
+      
+
     <div class="container">
-        <h1><Center><b>Sri Lankan A/L Physical Science  Stream</b></Center></h1>
-        <br>
-        <h2>Subjects in the Physical Science Stream</h2>
-        <br>
-        <p>
-          The <strong>Physical Science stream</strong> in Sri Lanka is a prominent academic pathway offered at the Advanced Level (A/L) in secondary education, designed for students with a strong interest in mathematics, physics, and chemistry. The core subjects in this stream include:
-      </p>
-      <ul>
-          <li>Combined Mathematics</li>
-          <li>Physics</li>
-          <li>Chemistry</li>
-          <li>Information and Communication Technology (ICT)</li>
-      </ul>
-      <p>
-          The Physical Science stream is ideal for students aiming to pursue careers in engineering, physical sciences, computer science, and other related fields. It provides a rigorous foundation in mathematical and scientific principles, essential for understanding the physical world and solving complex problems in technology and engineering.
-      </p>
-      <p>
-          This stream emphasizes analytical thinking, problem-solving, and the application of scientific methods. By studying subjects such as Combined Mathematics, Physics, and Chemistry, students gain a deep understanding of the laws of nature, the behavior of matter, and the mathematical frameworks that describe physical phenomena. The inclusion of Information and Communication Technology (ICT) offers additional skills in computing and digital technologies, which are increasingly important in modern science and engineering.
-      </p>
-      <p>
-          The Physical Science stream is an excellent choice for students with a passion for mathematics and the physical sciences, offering numerous opportunities for further education and professional development in these challenging and rewarding fields.
-      </p>
-      <p>
-        The <strong>Physical Science stream</strong> in Sri Lanka offers a broad spectrum of academic programs that emphasize the study of physical sciences, engineering, and technology. This stream caters to students interested in careers in engineering, computer science, and applied physical sciences. Below is an overview of the key programs and institutions involved in the Physical Science stream, as outlined in the University Grants Commission (UGC) handbook:
-    </p>
-    
-    <h2>1. Engineering</h2>
-    <ul>
-        <li>University of Peradeniya</li>
-        <li>University of Jaffna</li>
-        <li>University of Ruhuna</li>
-        <li>University of Moratuwa</li>
-        <li>South Eastern University of Sri Lanka</li>
-        <li>University of Sri Jayewardenepura</li>
-    </ul>
-    
-    <h2>2. Engineering (EM) - Earth Resources Engineering</h2>
-    <ul>
-        <li>University of Moratuwa</li>
-    </ul>
-    
-    <h2>3. Engineering (TM) - Textile & Apparel Engineering</h2>
-    <ul>
-        <li>University of Moratuwa</li>
-    </ul>
-    
-    <h2>4. Transport Management & Logistics Engineering (TMLE)</h2>
-    <ul>
-        <li>University of Moratuwa</li>
-    </ul>
-    
-    <h2>5. Physical Science</h2>
-    <ul>
-        <li>University of Colombo</li>
-        <li>University of Peradeniya</li>
-        <li>University of Sri Jayewardenepura</li>
-        <li>University of Kelaniya</li>
-        <li>University of Jaffna</li>
-        <li>University of Ruhuna</li>
-        <li>Eastern University, Sri Lanka</li>
-        <li>South Eastern University of Sri Lanka</li>
-    </ul>
-    
-    <h2>6. Computer Science</h2>
-    <ul>
-        <li>University of Jaffna</li>
-        <li>University of Ruhuna</li>
-        <li>University of Colombo School of Computing</li>
-        <li>Trincomalee Campus of the Eastern University, Sri Lanka</li>
-        <li>University of Kelaniya</li>
-        <li>University of Sri Jayewardenepura</li>
-    </ul>
-    
-    <h2>7. Applied Sciences (Physical Science)</h2>
-    <ul>
-        <li>Rajarata University of Sri Lanka</li>
-        <li>Sabaragamuwa University of Sri Lanka</li>
-        <li>Wayamba University of Sri Lanka</li>
-        <li>University of Vavuniya, Sri Lanka</li>
-        <li>Trincomalee Campus of the Eastern University, Sri Lanka</li>
-    </ul>
-    
-    <h2>8. Industrial Statistics & Mathematical Finance</h2>
-    <ul>
-        <li>University of Colombo</li>
-    </ul>
-    
-    <h2>9. Statistics & Operations Research</h2>
-    <ul>
-        <li>University of Peradeniya</li>
-    </ul>
-    
-    <h2>10. Computing & Information Systems</h2>
-    <ul>
-        <li>Sabaragamuwa University of Sri Lanka</li>
-    </ul>
-    
-    <h2>11. Physical Science - ICT</h2>
-    <ul>
-        <li>University of Sri Jayewardenepura</li>
-        <li>University of Kelaniya</li>
-    </ul>
-    
-    <h2>12. Artificial Intelligence</h2>
-    <ul>
-        <li>University of Moratuwa</li>
-    </ul>
-    
-    <h2>13. Electronics and Computer Science</h2>
-    <ul>
-        <li>University of Kelaniya</li>
-    </ul>
-    
-    <h2>14. Data Science</h2>
-    <ul>
-        <li>Sabaragamuwa University of Sri Lanka</li>
-    </ul>
-    <br>
-    <h2>Syllabus</h2>
+        <h1><center><B>Sri Lankan A/L Physical Science Stream</B></center></h1>
+        
+    <h2>COMBINED MATHS</h2>
     <button onclick="toggleSyllabus()" class="syllabus-btn">Download Syllabus & Past papers</button>
     <ul id="syllabusList" class="syllabus-list">
-      <li> <a href="combined maths.html" >Combined Mathematics </a></li> 
-      <li><a href="Physics.html" >Physics</a> </li>
-      <li><a href="#" >Chemistry</a></li>  
-      <li> <a href="IT.html" >Information & Communication Technology</a></li>
+      <li>Engineering Technology -<pre>    <span style="color: rgb(255, 13, 0);">Syllabus</span>  <a href="https://www.e-thaksalawa.moe.gov.lk/moodle/course/view.php?id=721" target="_blank">(Tamil</a>|<a href="https://www.e-thaksalawa.moe.gov.lk/moodle/course/view.php?id=788" target="_blank">Sinhala)</a>|<a href="https://eservices.exams.gov.lk/PPUS/" target="_blank"> Pastpaper</a></li></pre>     
+
+      
     </ul>
 <br>
 <br>
 <br>
-    <h2>Admission and Academic Focus</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h2>PRIVATE CLASSES YOUTUBE LINKS</h2>
     <p>
-        Admission to the programs listed above is typically based on merit, with students being selected according to their academic performance and examination results. The Physical Science stream provides students with a comprehensive education in various scientific and technological disciplines, preparing them for careers in engineering, computer science, data analysis, and applied sciences.
+        <Ul>
+            <li>1.</li>
+            <a href="#">Visit youtube</a></li></ul>
+        </Ul>
     </p>
-    
     </div>
+   
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Education pathway Site. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript for Image Slideshow -->
-    <script>
-        let currentIndex = 0;
-        const bannerImages = document.querySelector('.banner-images');
-
-        function slideBanner() {
-            currentIndex = (currentIndex + 1) % 2;
-            bannerImages.style.transform = `translateX(-${currentIndex * 100}%)`;
-        }
-
-        setInterval(slideBanner, 5000);
-    </script>
+    
      <script>
         function toggleSyllabus() {
             var syllabusList = document.getElementById("syllabusList");
@@ -554,6 +497,29 @@
             }
         }
     </script>
+   <script>
+    function adjustAdSize() {
+      const adContainer = document.querySelector(".ad-container");
+      const viewportWidth = window.innerWidth;
+  
+      if (viewportWidth < 480) {
+        adContainer.style.width = "40vw";
+        adContainer.style.height = "40vw";
+      } else if (viewportWidth < 768) {
+        adContainer.style.width = "30vw";
+        adContainer.style.height = "30vw";
+      } else {
+        adContainer.style.width = "20vw";
+        adContainer.style.height = "20vw";
+      }
+    }
+  
+    // Adjust on load and when resizing the window
+    window.addEventListener("resize", adjustAdSize);
+    window.addEventListener("load", adjustAdSize);
+  </script>
+  
+      
     
 </body>
 </html>
